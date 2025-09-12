@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Developer Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+  <!-- Font Awesome for Coding Profile Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="port.css" />
+</head>
+<body class="bg-black text-white">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand text-success fw-bold" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">My Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#coding-profiles">Coding Profiles</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Badges">Badges</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section d-flex align-items-center justify-content-center">
+    <div class="container text-center" data-aos="fade-up">
+      <img src="23P31A1212 - Copy.png" alt="Profile Image" class="profile-img mb-4">
+      <h1>Hello, I'm <span class="text-success">Rudra Devi</span></h1>
+      <p class="lead">A passionate Web Developer focused on building responsive websites with HTML, CSS & JavaScript.</p>
+      <a href="#about" class="btn btn-success mt-3">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section bg-dark-alt">
+    <div class="container" data-aos="fade-right">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <h2>About Me</h2>
+          <p>I am a beginner web developer currently learning front-end technologies. I enjoy crafting clean, responsive, and accessible web experiences. My goal is to grow into a full-stack developer and build impactful projects.</p>
+        </div>
+        <div class="col-md-5 text-center">
+          <img src="about.webp" alt="About Me" class="about-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section bg-dark">
+    <div class="container text-center" data-aos="zoom-in">
+      <h2>My Skills</h2>
+      <p>Here are some of the technologies I am learning and practicing:</p>
+      <div class="row g-4 mt-4">
+        <div class="col-md-3"><div class="skill-box">HTML</div></div>
+        <div class="col-md-3"><div class="skill-box">CSS</div></div>
+        <div class="col-md-3"><div class="skill-box">JavaScript</div></div>
+        <div class="col-md-3"><div class="skill-box">Bootstrap</div></div>
+        <div class="col-md-3"><div class="skill-box">SQL</div></div>
+        <div class="col-md-3"><div class="skill-box">Java</div></div>
+        <div class="col-md-3"><div class="skill-box">C</div></div>
+      </div>
+    </div>
+  </section>
+
+<!-- Resume Section -->
+<section id="resume" class="section bg-dark-alt">
+  <div class="container text-center" data-aos="fade-left">
+    <h2>Resume</h2>
+    <p>You can download my resume here:</p>
+    <a href="Resume.pdf" download class="btn btn-success mt-2">Download Resume</a>
+  </div>
+</section>
+
+
+
+
+  <!-- Coding Profiles Section -->
+  <section id="coding-profiles" class="section bg-dark">
+    <div class="container text-center" data-aos="fade-up">
+      <h2 class="text-success mb-5">Coding Profiles</h2>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-2 col-6">
+          <a href="https://www.hackerrank.com/profile/matsadevi07" target="_blank" class="profile-card">
+            <i class="fa-brands fa-hackerrank hackerrank-color"></i>
+            <h6>HackerRank</h6>
+          </a>
+        </div>
+
+        <div class="col-md-2 col-6">
+          <a href="https://leetcode.com/u/devimatsa07" target="_blank" class="profile-card">
+            <i class="fa-solid fa-code leetcode-color"></i>
+            <h6>LeetCode</h6>
+          </a>
+        </div>
+
+        <div class="col-md-2 col-6">
+          <a href="https://www.geeksforgeeks.org/user/matsad3ap5/" target="_blank" class="profile-card">
+            <i class="fa-solid fa-terminal gfg-color"></i>
+            <h6>GFG</h6>
+          </a>
+        </div>
+
+        <div class="col-md-2 col-6">
+          <a href="https://github.com/devimatsa07" target="_blank" class="profile-card">
+            <i class="fa-brands fa-github github-color"></i>
+            <h6>GitHub</h6>
+          </a>
+        </div>
+
+        <div class="col-md-2 col-6">
+          <a href="https://www.codechef.com/users/devimatsa07" target="_blank" class="profile-card">
+            <i class="fa-solid fa-utensils codechef-color"></i>
+            <h6>CodeChef</h6>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+    <section id="certificates" class="section bg-dark">
+    <div class="container">
+      <h2 class="text-center mb-5 text-success">Certificates</h2>
+      <div class="row g-4">
+
+        <!-- Certificate 1 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="Final oracle Java certificate.pdf" target="_blank">
+              <img src="Oracle Java.png" alt="Oracle Java" class="cert-img">
+            </a>
+            <h6 class="cert-title">Oracle Java</h6>
+          </div>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="C-COURSE COMPLETION CERTIFICATE.pdf" target="_blank">
+              <img src="C-certificate.png" alt="C-Certificate" class="cert-img">
+            </a>
+            <h6 class="cert-title">C-Certificate</h6>
+          </div>
+        </div>
+        <!-- Certificate 3 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="CPP-CERTIFICATE CISCO.pdf" target="_blank">
+              <img src="CPP-Certificate.png" alt="JavaScript Fundamentals" class="cert-img">
+            </a>
+            <h6 class="cert-title">CPP-Certificate</h6>
+          </div>
+        </div>
+
+        <!-- Certificate 4 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="HTML and CSS.pdf" target="_blank">
+              <img src="Html and CSS.png" alt="C-Certificate" class="cert-img">
+            </a>
+            <h6 class="cert-title">HTML and CSS</h6>
+          </div>
+        </div>
+
+
+        <!-- Certificate 5 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="Redhat Final.pdf" target="_blank">
+              <img src="Redhat.png" alt="C-Certificate" class="cert-img">
+            </a>
+            <h6 class="cert-title">Redhat</h6>
+          </div>
+        </div>
+
+        <!-- Certificate 6 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="CISCO Python.pdf" target="_blank">
+              <img src="Cisco Python.png" alt="C-Certificate" class="cert-img">
+            </a>
+            <h6 class="cert-title">Python Certificate</h6>
+          </div>
+        </div>
+
+        <!-- Certificate 7 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="sql_intermediate certificate.pdf" target="_blank">
+              <img src="SQL intemediate.png" alt="C-Certificate" class="cert-img">
+            </a>
+            <h6 class="cert-title">SQL Intermediate Certificate</h6>
+          </div>
+        </div>
+
+        <!-- Certificate 8 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="OS CISCO.pdf" target="_blank">
+              <img src="OS certificate.png" alt="C-Certificate" class="cert-img">
+            </a>
+            <h6 class="cert-title">Operating Systems Certificate</h6>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+   <!-- Badges Section -->
+  <section id="Badges" class="section bg-dark">
+    <div class="container">
+      <h2 class="text-center mb-5 text-success">Badges</h2>
+      <div class="row g-4">
+
+        <!-- Certificate 1 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="Final oracle Java certificate.pdf" target="_blank">
+              <img src="Final Java badge.jpg" alt="Oracle Java" class="cert-img">
+            </a>
+            <h6 class="cert-title">Oracle Java</h6>
+          </div>
+        </div>
+         <!-- Certificate 4 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="HTML and CSS.pdf" target="_blank">
+              <img src="CodeChef diamond badge.png".png" alt="C-Certificate" class="cert-img">
+            </a>
+            <h6 class="cert-title">HTML and CSS</h6>
+          </div>
+        </div>
+
+        <!-- Certificate 5 -->
+        <div class="col-md-4" data-aos="flip-left">
+          <div class="cert-card text-center">
+            <a href="Redhat Final.pdf" target="_blank">
+              <img src="RHCSA Redhat badge.png" alt="C-Certificate" class="cert-img">
+            </a>
+            <h6 class="cert-title">Redhat</h6>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+<section id="contact" class="contact-section bg-dark-alt">
+  <div class="container text-center" data-aos="fade-up">
+    <h2 class="mb-4">Contact</h2>
+    <div class="row justify-content-center g-4">
+
+      <div class="col-md-4">
+        <div class="contact-box">
+          <i class="fa-solid fa-envelope"></i>
+          <p>Email</p>
+          <h6>matsadevi07@gmail.com</h6>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="contact-box">
+          <i class="fa-solid fa-phone"></i>
+          <p>Phone</p>
+          <h6>+6300698955</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="text-center py-3 border-top text-secondary bg-black">
+    <p>&copy; 2025 Rudra Devi. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
